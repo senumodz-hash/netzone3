@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Owner Portal</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<section class="contact-hero">
+  <div>
+    <h1>Owner Login</h1>
+    <input type="password" id="password" placeholder="Enter owner key">
+    <button class="btn" id="loginBtn">Login</button>
+  </div>
+</section>
+
+<section id="updateSection" class="contact-container" style="display:none;">
+  <h2>Update VPN Configs</h2>
+  <textarea id="vpnConfigsTextarea" rows="15"></textarea>
+  <button class="btn" id="updateBtn">Update Configs</button>
+</section>
+
+<script src="js/owner.js"></script>
+</body>
+</html>
